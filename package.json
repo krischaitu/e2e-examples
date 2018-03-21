@@ -1,0 +1,14 @@
+{
+  "name": "protractor-examples",
+  "version": "0.0.1",
+  "description": "A demo app with Protractor tests",
+  "scripts": {
+    "start": "node app/expressserver.js",
+    "test": "node_modules/.bin/protractor test/conf.js"
+  },
+  "dependencies": {
+    "express": "~3.4.0",
+    "protractor": "2.1.0",
+    "q": "^1.0.0",
+  }
+}
